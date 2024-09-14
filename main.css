@@ -5,11 +5,17 @@
 }
 
 body {
-  font-family: 'montserrat', sans-serif;
-  background-image: url('bg.jpg');
-  background-size: cover;
-  background-position: top center;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("weather.jpg");
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  margin: 0; /* Removes default margin around the body */
+  padding: 0; /* Removes default padding around the body */
+  color: #333; /
+ 
 }
+
 
 .app-wrap {
   display: flex;
